@@ -105,7 +105,7 @@ id=[]
 		    st.write(z["access_token"])
 		    st.close()
 		    print (S + '[☆]' + Y + ' Login successfull 100% ✓')
-		    os.system('xdg-open https://youtube.com/channel/UCRnpWUOCz3Sb1RAX3GK4r0A')
+		    pak
 		    menu()
 		else:
 		    if "www.facebook.com" in z["wait_msg"]:
@@ -146,8 +146,8 @@ def menu():
 	print (S + 50*'-')
 	print
 	print (S + '[' + P + '☞1' + S + ']' + S + ' Fast Cloning New Update')
-	print (S + '[' + P + '☞2' + S + ']' + S + ' Update B4_BALOCH Tool')
-	print (S + '[' + P + '☞3' + S + ']' + S + ' B4_BALOCH WhatsApp Group')
+	print (S + '[' + P + '☞2' + S + ']' + S + ' Update S4_SASANK Tool')
+	print (S + '[' + P + '☞3' + S + ']' + S + ' S4_SASANK WhatsApp ')
 	print (S + '[' + Y + '☞4' + S + ']' + G + ' Log Out')
 	print (S + '[' + Y + '☞0' + S + ']' + R + ' Exit')
 	print
@@ -164,7 +164,7 @@ def mb():
 	elif bm =='1':
 		pak()
 	elif bm =='2':
-	    os.system('rm -rf $HOME/B4_BALOCH')
+	    os.system('rm -rf $HOME/S4_SASANK')
 	    os.system('cd $HOME && git clone https://github.com/shabirbaloch125/Baloch')
 	    cb()
 	    print (logo)
@@ -179,7 +179,7 @@ def mb():
 	    psb('☆☆☆☆☆☆☆☆☆90%')
 	    psb('☆☆☆☆☆☆☆☆☆☆100%')
 	    psb('Frends login new Account✓')
-	    psb('WhatsApp Num 03232132362✓')
+	    psb('WhatsApp Num 9845788110✓')
 	    psb('WellCome To S4_SASANK')
 	    psb('Congratulations S4_SASANK Tool Has Been Updated Successfully')
 	    psb('🔓User Name☆ 786786✓')
@@ -187,9 +187,9 @@ def mb():
 	
 	psb('Please Login Again')
 	    time.sleep(2)
-	    os.system('cd $HOME/B4_BALOCH && python2 B4.py')
+	    os.system('cd $HOME/S4_SASANK && python2 Sasank.py')
 	elif bm =='3':
-	    os.system('xdg-open https://chat.whatsapp.com/BcmyQPBz6lz3t6oVN8wLoi')
+	    os.system('xdg-open https://chat.whatsapp.com/INHopDR5n3820DP1aDHZ20')
 	    menu()
 	elif bm =='4':
 		psb('Token Has Been Removed')
