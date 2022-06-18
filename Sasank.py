@@ -62,9 +62,9 @@ def trb():
 ##### LOGO #####
 logo='''
 \033[1;94m ┈┈┈┈╱▔▔▔▔╲┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈╱▔▔▔▔╲┈┈┈┈
-\033[1;94m ┈┈┈▕▕B4 M4▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕B4 M4▏▏┈┈┈
+\033[1;94m ┈┈┈▕▕S4 C4▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕B4 M4▏▏┈┈┈
 \033[1;94m ┈┈┈▕▕▂╱╲▂▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕▂╱╲▂▏▏┈┈┈
-\033[1;94m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;94mShabirBaloch.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
+\033[1;94m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;94mSasankchhetri.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
 \033[1;96m ┈┈┈┈▕╲▂▂╱▏┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈▕╲▂▂╱▏┈┈┈┈
 \033[1;96m ╱▔▔▔▔┊┊┊┊▔▔▔▔╲☞☞☞☞☞☞\033[1;91m☜☜☜☜☜╱▔▔▔▔┊┊┊┊▔▔▔▔╲
 \033[1;96m................\033[1;93mSasankchhetri\033[1;91m...............
@@ -73,8 +73,8 @@ logo='''
 \033[1;96m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
 \033[1;91m☞ Auther     : SASANK_IS_HERE
-\033[1;92m☞ WhatsApp   : 9845793865
-\033[1:93m☞Youtube    :
+\033[1;92m☞ WhatsApp   : 9845788110
+\033[1:93m☞Youtube     : No Channel
 
 \033[1;93m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
                                 '''
@@ -86,12 +86,12 @@ cps=[]
 id=[]
 
 #### login ####
-def login():
+ login():
 	cb()
-	try:
+	:
 		tb=open('token.txt', 'r')
 		menu() 
-	except (KeyError,IOError):
+	except (Key,IO):
 		cb()
 		print (logo)
 		print (R + '◈━━━━▷' + S + ' Login With ✬🄵🄰🄲🄴🄱🄾🄾🄺✬ ' + R + '◁━━━━◈')
@@ -108,7 +108,7 @@ def login():
 		    os.system('xdg-open https://youtube.com/channel/UCRnpWUOCz3Sb1RAX3GK4r0A')
 		    menu()
 		else:
-		    if "www.facebook.com" in z["error_msg"]:
+		    if "www.facebook.com" in z["wait_msg"]:
 		        print (R + 'Account has a checkpoint !')
 		        t()
 		        login()
@@ -180,12 +180,12 @@ def mb():
 	    psb('☆☆☆☆☆☆☆☆☆☆100%')
 	    psb('Frends login new Account✓')
 	    psb('WhatsApp Num 03232132362✓')
-	    psb('WellCome To B4_BALOCH')
-	    psb('Congratulations B4_BALOCH Tool Has Been Updated Successfully')
+	    psb('WellCome To S4_SASANK')
+	    psb('Congratulations S4_SASANK Tool Has Been Updated Successfully')
 	    psb('🔓User Name☆ 786786✓')
 	    psb('🔓Password ☆ 786786✓')
-	    psb('Subscrib My Youtube Channel B4 BALOCH M4 MASTER✓')
-	    psb('Please Login Again')
+	
+	psb('Please Login Again')
 	    time.sleep(2)
 	    os.system('cd $HOME/B4_BALOCH && python2 B4.py')
 	elif bm =='3':
@@ -245,8 +245,8 @@ def pb():
 			jok=requests.get('https://graph.facebook.com/'+idt+'?access_token='+tb)
 			op=json.loads(jok.text)
 			psb(S + '[☆]' + G + ' Account  Name: ' + W + op['name'])
-		except KeyError:
-			print (R + ' ID not found !')
+		except Key:
+			print (R + ' ID was found !')
 			raw_input(R + ' Back')
 			pak()
 		r=requests.get('https://graph.facebook.com/'+idt+'/friends?access_token='+tb)
